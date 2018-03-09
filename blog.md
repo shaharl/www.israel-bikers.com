@@ -17,7 +17,7 @@ permalink: /blog/
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu">
-          <li><a href="{{ site.baseurl }}/posts-by-categories/">Categories</a></li>
+          <li><a href="{{ site.url }}/posts-by-categories/">Categories</a></li>
         </ul>
       </div>
 
@@ -35,7 +35,7 @@ permalink: /blog/
 
           <li>
             <hr>
-            <a href="{{ post.url | prepend: site.baseurl }}"><img src="/{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}"></a>
+            <a href="{{ post.url | prepend: site.baseurl }}"><img src="{{ site.url }}/{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}"></a>
             <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
           </li>
