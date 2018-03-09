@@ -1,0 +1,21 @@
+
+# Site settings
+title: ISRAEL BIKERS
+email: support@israel-bikers.com
+description: >- 
+  Motorcycles news and events from Israel and all over the world.
+baseurl: "" 
+url: "http://www.israel-bikers.com" 
+lang: "en"
+
+# Build settings
+markdown: kramdown
+permalink: none
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+#theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
