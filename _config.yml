@@ -4,7 +4,8 @@ title: ISRAEL BIKERS
 email: support@israel-bikers.com
 description: >- 
   Motorcycles news and events from Israel and all over the world.
-baseurl: "" 
+baseurl: "www.israel-bikers.com" # for github pages
+#baseurl: "www.israel-bikers.com" # for github pages
 url: "http://www.israel-bikers.com" 
 lang: "en"
 
