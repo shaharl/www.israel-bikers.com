@@ -1,15 +1,15 @@
 .heading-font {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Alef', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 .body-font {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Alef', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 .alt-font {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Alef', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -22,7 +22,7 @@ html {
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Alef', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 a {
@@ -46,7 +46,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Alef', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -63,12 +63,12 @@ p {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Alef', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
   .navbar-header {
     .navbar-brand {
-      font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+      font-family: 'Alef', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
       font-weight: 200;
       letter-spacing: 1px;
       color: $theme-primary;
@@ -84,7 +84,7 @@ p {
   }
   .nav > li {
     > a {
-      font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+      font-family: 'Alef', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 11px;
@@ -470,23 +470,28 @@ footer {
   color: white;
   border-color: white;
   border: 1px solid;
-  &:hover, &:focus, &:active, &.active {
+  &:focus, &:active, &.active {
     color: white;
-    background-color: $theme-primary;
-    border-color: $theme-primary;
+  }
+  &:hover {
+    color: white;
+    background-color: transparent;
   }
 }
 
 .btn {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Alef', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
 }
 
 .btn-xl {
+  background-color: $theme-primary;
+  border-color: $theme-primary;
   padding: 15px 45px;
-  font-size: 11px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 ::-moz-selection, ::selection {
@@ -595,7 +600,7 @@ body {
     font-size: 24px;
     line-height: 1.1;
     display: block;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Alef', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     margin: 10px 0 0;
   }
@@ -608,13 +613,13 @@ body {
       display: block;
     }
     .subheading {
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'Alef', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       font-size: 24px;
       margin: 10px 0 30px;
       font-weight: 600;
     }
     .meta {
-      font-family: 'Lora', 'Times New Roman', serif;
+      font-family: 'Alef', 'Lora', 'Times New Roman', serif;
       font-style: italic;
       font-weight: 300;
       font-size: 20px;
