@@ -473,10 +473,11 @@ footer {
   border: 1px solid;
   &:focus, &:active, &.active {
     color: white;
+    background-color: $theme-primary;
   }
   &:hover {
     color: white;
-    background-color: transparent;
+    background-color: $theme-primary;
   }
 }
 
@@ -491,7 +492,7 @@ footer {
   background-color: $theme-primary;
   border-color: $theme-primary;
   padding: 15px 45px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -512,11 +513,13 @@ footer {
   &:focus, &:active, &.active {
     color: white;
     background-color: #4267b2;
+    border-color: white;
     text-decoration: none;
   }
   &:hover {
     color: #4267b2;
     background-color: white;
+    border-color: white;
     text-decoration: none;
   }
 }
