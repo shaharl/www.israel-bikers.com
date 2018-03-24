@@ -47,10 +47,12 @@
 <script>
   window.onscroll = function() {scrollFunction()};
   function scrollFunction() {
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-          document.getElementById("scroll-top").style.display = "block";
-      } else {
-          document.getElementById("scroll-top").style.display = "none";
+      if (screen.width > 768) {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("scroll-top").style.display = "block";
+        } else {
+            document.getElementById("scroll-top").style.display = "none";
+        }
       }
   }
 </script>
