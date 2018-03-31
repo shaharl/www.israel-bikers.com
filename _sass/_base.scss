@@ -72,10 +72,18 @@ p {
       font-family: 'Alef', 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
       font-weight: 200;
       letter-spacing: 1px;
-      color: $theme-primary;
-      &:hover, &:focus {
-        color: #E54D42;
+      color: #222222;
+      //color: $theme-primary;
+      &:focus {
+        color: #222222;
+        //color: rgba(255, 255, 255, 0.7);
+      }      
+      &:hover, &:focus:hover {
+        color: #222222;
       }
+      //&:hover, &:focus {
+      //  color: #E54D42;
+      //}
     }
     .navbar-toggle {
       font-size: 12px;
@@ -90,22 +98,30 @@ p {
       letter-spacing: 2px;
       font-size: 16px;
       color: #222222;
+      //color: rgba(255, 255, 255, 0.7);
       &:focus {
         color: #222222;
-      }
+        //color: rgba(255, 255, 255, 0.7);
+      }      
       &:hover, &:focus:hover {
-        color: $theme-primary;
+        color: #222222;
       }
     }
     &.active > a {
       color: $theme-primary !important;
       background-color: transparent;
+      //color: #222222 !important;
+      //background-color: #222;
       &:focus {
         color: $theme-primary !important;
         background-color: transparent;
+        //color: #222222 !important;
+        //background-color: #222;
       }
       &:hover, &:focus:hover {
         background-color: transparent;
+        //color: #222222 !important;
+        //background-color: #222;
       }
     }
   }
@@ -113,21 +129,31 @@ p {
 
 @media (min-width: 768px) {
   .navbar-default {
+    //color: red !important;
+    //background-color: #222222;
     background-color: transparent;
     border-color: transparent;
     .navbar-header .navbar-brand {
-      color: rgba(255, 255, 255, 0.7);
-      &:hover, &:focus {
-        color: white;
+      color: #222222;
+      //color: rgba(255, 255, 255, 0.7);
+      &:focus {
+        color: #222222;
+        //color: rgba(255, 255, 255, 0.7);
+      }      
+      &:hover, &:focus:hover {
+        color: #E54D42;
       }
     }
     .nav > li > a {
-      color: rgba(255, 255, 255, 0.7);
+      color: #222222;
+      //color: rgba(255, 255, 255, 0.7);
       &:focus {
-        color: rgba(255, 255, 255, 0.7);
+        color: #222222;
+        //color: rgba(255, 255, 255, 0.7);
       }
       &:hover, &:focus:hover {
-        color: white;
+        color: #E54D42;
+        //color: white;
       }
     }
     &.affix {
@@ -157,8 +183,13 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
+  background: url("../img/background_image.jpg"), #f4f4f4;
+  //background: #f4f4f4;
+  //background: url("../img/tire.jpg"), #f4f4f4;
   //background: url("../img/bg-pattern.png"), $head-primary;
-  background: $head-primary;
+  //background: $head-primary;
+  //background-image: linear-gradient(to bottom,#fff,#f3f3f3);
+
   /* fallback for old browsers */
   //background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
   //background: -webkit-linear-gradient(to left, $head-primary, $head-secondary);
@@ -166,7 +197,9 @@ header {
   //background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
   //background: linear-gradient(to left, $head-primary, $head-secondary);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
+  //color: white;
+  //color: #9a9a9a;
+  color: #222222;
   .header-content {
     text-align: center;
     padding: 150px 0 50px;
@@ -177,8 +210,8 @@ header {
       margin: 0 auto;
       h1 {
         margin-top: 0;
-        margin-bottom: 30px;
-        font-size: 30px;
+        margin-bottom: 40px;
+        font-size: 60px;
       }
       .list-badges {
         margin-bottom: 25px;
@@ -236,6 +269,10 @@ section {
     font-size: 50px;
   }
   &.download {
+    //background: #f4f4f4;
+    //background: url("../img/background-pattern.png"), #f4f4f4;
+    background: url("../img/background_road.jpg"), #222222;
+    color: #f4f4f4;
     padding: 150px 0;
     position: relative;
     h2 {
@@ -288,7 +325,8 @@ section {
       }
       i {
         font-size: 80px;
-        background: $head-secondary;
+        background: #222222;
+        //background: $head-secondary;
         //background: -webkit-linear-gradient(to left, $head-primary, $head-secondary);
         //background: linear-gradient(to left, $head-primary, $head-secondary);
         -webkit-background-clip: text;
@@ -407,7 +445,7 @@ section {
 
 @media (min-width: 768px) {
   section.download h2 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 
@@ -433,7 +471,7 @@ section {
 
 footer {
   background-color: #222222;
-  padding: 25px 0;
+  padding: 40px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
   p {
@@ -510,7 +548,7 @@ footer {
   border: 2px solid;
 
   background-color: #4267b2;
-  color: white;
+  color: red;
   &:focus, &:active, &.active {
     color: white;
     background-color: #4267b2;
